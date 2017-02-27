@@ -1,0 +1,27 @@
+footer{
+    text-align: center;
+    margin: 50px;
+}
+
+h3{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    display: block
+}
+body{
+    background-color: purple !important;
+}
+
+*{
+    color: chartreuse !important;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Highscore Haven</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="haven.css">
+
+</head>
+
+<body>
+    <h1>HIGH SCORE HAVEN</h1>
+
+    <table class="newScore">
+        <tr>
+            <th>Full Name</th>
+            <th>Game</th>
+            <th>Score/Time</th>
+            <th>Date</th>
+        </tr>
+    </table>
+
+    <form class="required">
+        <div>
+            <input type="text" id="fullname" placeholder="Full Name" class="userInput" required>
+        </div>
+        <div>
+            <input type="text" name="game" id="game" placeholder="Game" class="userInput" required>
+        </div>
+        <div>
+            <input type="number" name="score" id="top" placeholder="Highscore" class="score" class="userInput" required>
+        </div>
+        <div>
+        <input type="text" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="24h" placeholder= "MIN:SEC"/>
+        </div>
+        <input type="date" id="day" name="day">
+        <div>
+            <input type="checkbox" name="trash" id="trashTalk">Trash talk
+        </div >
+        <div id="trashed" style="display:none"></div>
+    </form>
+    <button class="btn btn-info" type="button" id="highscore">New High Score??</button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2">
+            </div>
+
+
+            <div class="col-xs-2">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.1.1.js " integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin=" anonymous "></script>
+    <script src="haven.js"></script>
+</body>
+
+</html>

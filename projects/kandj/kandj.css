@@ -1,0 +1,52 @@
+body{
+    margin-bottom: 100px;
+}
+
+
+header {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#slideshow {
+    margin-top: 50px;
+}
+
+input {
+    font-family: "avenir", sans-serif;
+}
+
+#inputBackground {
+    background-color: #FDE6DB;
+    padding: 20px;
+}
+
+.firstText {
+    margin-top: 50px;
+    text-align: center;
+    background: transparent;
+}
+.smallText{
+    float: right;
+}
+.caption{
+    display: inline;
+}
+
+.lrgText {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+.lrgImage {
+     width: 100%;
+}
+.dateText{
+    text-align: center;
+    
+}
+button{
+    
+}

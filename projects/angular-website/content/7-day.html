@@ -1,0 +1,22 @@
+<h2>7 Day Forecast</h2>
+
+<div class="container">
+    <h3>Tomorrow</h3>
+    <hr>
+    <div class="row" ng-repeat="day in info">
+        <div class="col-xs-3">Max: {{ day.temperatureMax | number : 0}}</div>
+        <div class="col-xs-3">Min: {{ day.temperatureMin | number : 0}}</div>
+        <div class="col-xs-3">Wind Speed: {{ day.windSpeed | number : 2}} Miles/hour </div>
+        <div class="col-xs-3">Precipitation: {{ day.precipProbability *100 | number : 0}}%</div>
+        <center>
+            <div class="row">
+                <div id="icon">
+                    <skycon icon="day.icon" color="day.icon.color"  class="col-xs-6 col-xs-offset-3"></skycon>
+                </div>
+            </div>
+        </center>
+        <hr>
+    </div>
+
+
+</div>
